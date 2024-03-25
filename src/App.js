@@ -15,7 +15,7 @@ function App() {
   };
 
   return (
-    <div className="flex justify-center items-center ">
+    <div className="flex justify-center items-center my-6">
       <div className="max-w-screen-lg w-full md:w-3/4 lg:w-1/2 text-center rounded-3xl border shadow px-8 py-4  bg-zinc-500">
         {/* <div className="font-bold text-3xl">To Do List</div> */}
         <ToDOInput addList={addList} />
